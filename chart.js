@@ -25,7 +25,7 @@ var Chart = (function() {
 		.domain([0, 1])
 		.range([8, self.width() + 4]);
 	var yScale = d3.scale.linear()
-		.domain([60, 0])
+		.domain([30, 0])
 		.range([self.height(), 0]);
 
 	var xAxis = d3.svg.axis()
